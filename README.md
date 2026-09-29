@@ -30,4 +30,32 @@ Com a base tratada e inteligente, a solução espelha os dados em uma estrutura 
 1. **Mapeamento de Urgências:** Lista imediata dos produtos Classe A (mais caros) que estão em estado crítico de falta.
 2. **Balanço Financeiro:** Soma exata do capital imobilizado por categoria para prestação de contas com a diretoria financeira.
 3. **Auditoria de Fornecedores:** Identificação de quais parceiros comerciais concentram os maiores riscos de desabastecimento da cadeia.
+
+## 🚀 Resultados Práticos do Modelo (Console)
+
+O cruzamento de dados gerou insights automáticos e imediatos para a tomada de decisão do Diretor de Compras:
+
+### 1. Monitoramento Dinâmico de Alertas e Prazos de Entrega (Lead Time)
+O motor do projeto identificou exatamente quais produtos vão faltar antes do caminhão do fornecedor chegar, sem engessar nenhuma regra de dias:
+
+*   **SKU 1193BA (CRÍTICO):** Tem apenas **4.1 dias** de estoque e o fornecedor leva até **138 dias** para entregar. Compra urgente!
+*   **SKU 1964BA (CRÍTICO):** Tem apenas **7.1 dias** de estoque e o fornecedor demora até **96 dias** para entregar.
+*   **SKU 2449CA (Saudável):** Tem estoque seguro para **2.309 dias**, muito acima dos 68 dias do fornecedor. Não precisa gastar dinheiro comprando agora.
+
+### 2. Resumo Gerencial de Capital Preso (Curva ABC)
+Provamos financeiramente que a empresa tem **R$ 43 milhões** travados em apenas **64 produtos** estratégicos, o que justifica o foco total do analista nesses itens (Classe A).
+
+| Classe | Total de Itens | Capital Total Investido | Estratégia de Ação |
+| :--- | :---: | :---: | :--- |
+| **Classe A** | 64 | R$ 43.193.694,08 | Monitoramento diário e auditoria |
+| **Classe B** | 67 | R$ 8.167.913,75 | Revisão quinzenal de estoque |
+| **Classe C** | 172 | R$ 2.768.870,52 | Compras automáticas em lote |
+
+### 3. Gestão e Auditoria de Fornecedores Ofensores
+O relatório mapeou via SQL quais parceiros comerciais concentram as maiores falhas e riscos de desabastecimento na nossa operação hoje:
+
+1. **Lake Ltd:** lidera o risco com **43 produtos** em estado crítico.
+2. **ALK-Abello, Corp:** **28 produtos** em estado crítico.
+3. **Cixi Group:** **27 produtos** em estado crítico.
+
 # supply-chain-analytics
