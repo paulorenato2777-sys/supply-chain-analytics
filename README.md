@@ -1,3 +1,4 @@
+# supply-chain-analytics
 # Inteligência de Estoque: Otimização de Compras e Prevenção de Ruptura
 
 > 📱 **Nota de Desenvolvimento:** Este projeto foi totalmente planejado, estruturado e testado em ambiente mobile utilizando o smartphone (IDE Pydroid 3), demonstrando adaptabilidade e foco em entrega sob qualquer cenário.
@@ -58,4 +59,4 @@ O relatório mapeou via SQL quais parceiros comerciais concentram as maiores fal
 2. **ALK-Abello, Corp:** **28 produtos** em estado crítico.
 3. **Cixi Group:** **27 produtos** em estado crítico.
 
-# supply-chain-analytics
+
